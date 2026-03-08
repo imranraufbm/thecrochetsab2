@@ -50,6 +50,15 @@ body.dark .contact-card {
     border-color: #444;
     color: #eee;
 }
+.product-card {
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
 
 body.dark .whatsapp-btn {
     background: #1ebe5d;
