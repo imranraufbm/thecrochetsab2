@@ -1,0 +1,56 @@
+/* Contact Page */
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.contact-card {
+    background: white;
+    padding: 40px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.contact-info {
+    margin: 20px 0;
+    line-height: 1.7;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background .3s ease, transform .3s ease;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-3px);
+}
+
+/* Dark Mode for Contact Page */
+body.dark .contact-card {
+    background: #222;
+    border-color: #444;
+    color: #eee;
+}
+
+body.dark .whatsapp-btn {
+    background: #1ebe5d;
+}
